@@ -1,18 +1,21 @@
-/**Документирующий коментарий
+/**Documentation comment (Javadoc) -> Документирующий комментарий
  * @author Max Komisaorov
  * @version 1.0.2026
  *
  */
-// Создание класа
+// This is main class
 public class MyName {
-    //Точка входа в программу
+    //this method "main" is entry point to our program -> Точка входа в программу
     public static void main(String[] args) {
-        // Однострочный коментарий
+        // Single-line comment -> Одно-строчный комментарий
         /*
-        Много строчный коментарий
+        Multi-line comment -> Много-строчный комментарий
          */
 
         /*
+        this instruction
+        print string
+        with greeting
         System.out.println -> Выводит текст на екран в новой строке
          */
 
