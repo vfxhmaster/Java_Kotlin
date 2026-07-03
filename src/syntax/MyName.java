@@ -1,3 +1,5 @@
+package syntax;
+
 /**Documentation comment (Javadoc) -> Документирующий комментарий
  * @author Max Komisaorov
  * @version 1.0.2026
