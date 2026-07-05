@@ -1,4 +1,4 @@
-package syntax;
+package syntax.name;
 
 /**Documentation comment (Javadoc) -> Документирующий комментарий
  * @author Max Komisaorov
