@@ -85,7 +85,7 @@ public class Variables {
         System.out.println(variableString);
 
 
-        String developerName = "Max";
+        String developerName = "Max Komisarov";
         int currentYear = 2026;
         double javaVersion = 17.0;
         System.out.println("Текущий год: " + currentYear);
