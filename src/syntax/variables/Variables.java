@@ -81,8 +81,14 @@ public class Variables {
 
         var variableNum = 15;
         System.out.println(variableNum);
+
         var variableString = "Max Komisarov";
         System.out.println(variableString);
+
+        var doubleVar = 5.25;
+        int newInteger = (int) doubleVar;
+        System.out.println("After casting newInteger: " + newInteger);
+
 
 
         String developerName = "Max Komisarov";
