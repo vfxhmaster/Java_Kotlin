@@ -2,7 +2,7 @@ package syntax.name;
 
 /**
  * Documentation comment (Javadoc) -> Документирующий комментарий
- * Используется для автоматической генерации документации по коду.
+ * Используеться для автоматической генерации документации по коду.
  *
  * @author Max Komisarov
  * @version 1.0.2026
@@ -29,5 +29,20 @@ public class MyName {
         // 3. Полезные спецсимволы внутри текста / Useful escape sequences
         System.out.println("This is a\tTab");       // \t делает отступ (табуляцию)
         System.out.println("He said: \"Java is cool!\""); // \" позволяет напечатать кавычки
+
+        // 4. ЭКРАНИРОВАНИЕ СИМВОЛОВ (Escape Sequences)
+
+        // Как напечатать двойную кавычку внутри строки: \"
+        System.out.println("He said: \"Java is cool!\"");
+
+
+         /*
+         Как напечатать обратный слэш: \\
+         (Одиночный слэш \ Java считает началом спецкоманды вроде \n или \t.
+         Если написать одиночные \U, \m, \D — будет ошибка "Illegal escape character")
+          */
+
+        System.out.println("C:\\User\\master\\Desktop\\\"JavaCourse\"");
+        // Выведет: C:\User\master\Desktop\"JavaCourse"
     }
 }
